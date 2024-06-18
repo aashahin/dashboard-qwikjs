@@ -1,0 +1,50 @@
+[
+  {
+    "lang": "en",
+    "title": "SEO Best Practices",
+    "description": "Follow these SEO best practices to improve your website's search engine ranking.",
+    "url": "https://www.example.com/en/seo-best-practices"
+  },
+  {
+    "lang": "ar",
+    "title": "أفضل ممارسات تحسين محركات البحث",
+    "description": "اتبع أفضل ممارسات تحسين محركات البحث لتحسين ترتيب موقعك على محركات البحث.",
+    "url": "https://www.example.com/ar/seo-best-practices"
+  },
+  {
+    "lang": "en",
+    "title": "Using Analytics to Boost Sales",
+    "description": "Learn how to use analytics tools to understand customer behavior and boost sales.",
+    "url": "https://www.example.com/en/using-analytics-to-boost-sales"
+  },
+  {
+    "lang": "ar",
+    "title": "استخدام التحليلات لزيادة المبيعات",
+    "description": "تعلم كيفية استخدام أدوات التحليلات لفهم سلوك العملاء وزيادة المبيعات.",
+    "url": "https://www.example.com/ar/using-analytics-to-boost-sales"
+  },
+  {
+    "lang": "en",
+    "title": "Enhancing Mobile User Experience",
+    "description": "Improve the mobile user experience to retain customers and increase engagement.",
+    "url": "https://www.example.com/en/enhancing-mobile-user-experience"
+  },
+  {
+    "lang": "ar",
+    "title": "تحسين تجربة المستخدم على الهاتف المحمول",
+    "description": "قم بتحسين تجربة المستخدم على الهاتف المحمول للاحتفاظ بالعملاء وزيادة التفاعل.",
+    "url": "https://www.example.com/ar/enhancing-mobile-user-experience"
+  },
+  {
+    "lang": "en",
+    "title": "Enhancing Website Performance with CDN",
+    "description": "Learn how to enhance website performance using a Content Delivery Network (CDN).",
+    "url": "https://www.example.com/en/enhancing-website-performance-with-cdn"
+  },
+  {
+    "lang": "ar",
+    "title": "تحسين أداء الموقع عبر شبكة توزيع المحتوى",
+    "description": "تعلم كيفية تحسين أداء الموقع باستخدام شبكة توزيع المحتوى (CDN).",
+    "url": "https://www.example.com/ar/enhancing-website-performance-with-cdn"
+  }
+]

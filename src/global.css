@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    :root {
+        --p: 42.58% 0.044 72;
+        --s: 33.92% 0.068 67.88;
+        --a: 71.36% 0.1246 80.47;
+        --bg: 100% 0 0;
+    }
+}
+
+/* Default styles */
+
+html, body {
+    font-family: 'Cairo', sans-serif;
+    font-optical-sizing: auto;
+}
+
+form {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid oklch(var(--p) / 10%);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    display: none;
+}
+
+[data-qwik-toast] {
+    will-change: unset !important;
+}
+
+[data-qwik-toast] [data-title] {
+    @apply ms-1 text-sm font-normal;
+}
+
+/* Ripple effect */
+span.ripple {
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    animation: ripple 600ms linear;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+@keyframes ripple {
+    to {
+        transform: scale(4);
+        opacity: 0;
+    }
+}
